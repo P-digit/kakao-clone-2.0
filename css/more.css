@@ -24,6 +24,8 @@
   border-top: 1px solid #f7f7f7;
   padding-top: 20px;
 }
+.more {
+}
 
 .more .more__title {
   opacity: 0.8;
@@ -38,11 +40,13 @@
 .suggestion .suggestion__icon {
   background-color: #fce006;
   padding: 10px;
-  border-radius: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .suggestion__icon i {
   font-size: 28px;
+  color: white;
 }
